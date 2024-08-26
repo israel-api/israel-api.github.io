@@ -37,6 +37,7 @@
     color: #8f8f8f;
     grid-template-columns: 1 / -1;
 }
+   
 
 @media (max-width:800px) {
     .footer-container {
@@ -45,5 +46,21 @@
     }
     .footer-contato li {
         font-size: 1.5rem;
+    }
+}
+
+@media (max-width:600px){
+    .footer-container{
+        padding: 40px;
+        
+    }
+
+    .footer-texto{
+        font-size: 1rem;
+    }
+
+    .footer-contato li {
+        font-size: 1rem;
+        margin-bottom: 15px;
     }
 }
