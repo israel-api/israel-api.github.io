@@ -7,6 +7,10 @@
     align-items: center;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .header-menu{
     display: flex;
     flex-wrap: wrap;
@@ -21,6 +25,7 @@
     text-decoration: none;
     color: #141414;
     display: block;
+   
 }
 
 .header-menu a:hover{
