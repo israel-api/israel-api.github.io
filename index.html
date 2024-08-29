@@ -17,7 +17,7 @@
         <img src="./img/marca.svg" alt="Lobo"  width="104" height="38">
 
         <div class="menus">
-            <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            <span id="burguer" class="material-symbols-outlined " onclick="clickMenu()">
                 menu
             </span>
         </div>
@@ -159,7 +159,8 @@
         </div>
     </footer>
 
-    <script>
+    <script defer>
+
        function clickMenu() {
             if (linknav.style.display == 'block') {
                 linknav.style.display = 'none'
